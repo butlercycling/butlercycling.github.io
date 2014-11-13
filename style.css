@@ -1,0 +1,91 @@
+@font-face {
+font-family:"bebas-neue";
+src:url('fonts/BebasNeue.otf');
+font-style: normal;
+font-weight: 400;
+}
+
+body {
+    margin: 0px;
+    background: #555;
+    color: #fff;
+    font-family: 'bebas-neue', sans serif;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    background: #000;
+}
+nav .logo {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    float: left;
+    font-size: 24pt;
+}
+nav .logo:hover {
+    color: #fff;
+}
+nav .logo h1 {
+    margin: 5px;
+}
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+nav li {
+   margin: 60px 25px 5px 10px;
+   display: inline;
+   color: #00BFFF;
+}
+nav li a {
+    font-size: 16pt;
+    margin-left: 5px;
+    color: #00BFFF;
+    //color: #1A3F8F;
+    text-decoration: none;
+}
+nav li .fa {
+    font-size: 18pt;
+    color: inherit;
+}
+nav li:hover {
+    color: #fff;
+    //color: #00BFFF;
+}
+.nav-text {
+    display: none;
+    //position: absolute;
+}
+nav li:hover .nav-text {
+    display: inline;
+}
+#banner {
+    height: 70px;
+    vertical-align: middle;
+    display: block;
+}
+section {
+    height: 900px;
+    padding-top: 300px;
+    text-align: center;
+    font-size: 40pt;
+}
+#home {
+    background: #00BFFF;
+    color: #fff;
+}
+#team {
+    background: #00BF33;
+    color: #FFF;
+}
+#sponsors {
+    background: #FF0000;
+    color: #FFF;
+}
+#contact {
+    background: #FFFF00;
+    color: #000;
+}
