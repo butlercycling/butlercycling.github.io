@@ -1,6 +1,10 @@
 $(document).ready(function(){
-        $("nav a").on("click", function() { 
-               var pos = $(this.hash).offset().top;
+        $("nav a").on("click", function() {
+               var h = this.hash
+               if (h == ""){
+                   h = "#home";
+               }
+               var pos = $(h).offset().top;
                $('html, body').animate({scrollTop:pos}, 'slow');
                window.location.hash = this.hash;
                return false;
