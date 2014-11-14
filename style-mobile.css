@@ -21,13 +21,13 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    padding: 10px 20px 10px 20px;
+    padding: 5px 10px 5px 10px;
     background: #000;
 }
 nav .logo {
     color: #fff;
     text-decoration: none;
-    margin: 5px;
+    margin: 0px;
     float: left;
     font-size: 18pt;
 }
@@ -81,7 +81,7 @@ section {
     margin: auto;
     font-size: 14pt;
     padding: 15px;
-    min-width: 320px;
+    min-width: 315px;
 }
 .textbox span {
    font-family: 'district-thin', sans-serif;
