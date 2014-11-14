@@ -75,7 +75,7 @@ section {
 }
 #home {
     background: url('img/home-1920.jpg');
-    //background: #00BFFF;
+    background-color: #00BFFF;
     color: #fff;
 }
 #team {
@@ -91,5 +91,15 @@ section {
 #contact {
     background: #666;
     //background: #FFFF00;
-    color: #000;
+    color: #FFF;
+}
+footer {
+    background: #000;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #00BFFF;
 }
