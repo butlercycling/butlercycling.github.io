@@ -68,24 +68,28 @@ nav li:hover .nav-text {
     display: block;
 }
 section {
-    height: 600px;
+    height: 800px;
     padding-top: 300px;
     text-align: center;
     font-size: 40pt;
 }
 #home {
-    background: #00BFFF;
+    background: url('img/test.jpg');
+    //background: #00BFFF;
     color: #fff;
 }
 #team {
-    background: #00BF33;
+    background: #00BFFF;
+    //background: #00BF33;
     color: #FFF;
 }
 #sponsors {
-    background: #FF0000;
+    background: #00BF33;
+    //background: #FF0000;
     color: #FFF;
 }
 #contact {
-    background: #FFFF00;
+    background: #666;
+    //background: #FFFF00;
     color: #000;
 }

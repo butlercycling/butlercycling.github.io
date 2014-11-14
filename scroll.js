@@ -7,8 +7,8 @@ $(document).ready(function(){
         });
         $(document).scroll(function(){
             var diff = $(window).scrollTop();
-            if (diff < 20 && diff >= 0) {
-                $("nav").css('zoom', ((100-diff)/100));
+            if (diff < 60 && diff >= 0) {
+                $("nav").css('zoom', ((100-(diff/3))/100));
             }
             else if (diff > 0) {
               $("nav").css('zoom', .8);
