@@ -21,7 +21,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 20px 10px 20px;
     background: #000;
 }
 nav .logo {
@@ -29,7 +29,7 @@ nav .logo {
     text-decoration: none;
     margin: 5px;
     float: left;
-    font-size: 24pt;
+    font-size: 18pt;
 }
 nav .logo:hover {
     color: #fff;
@@ -38,13 +38,14 @@ nav .logo h1 {
     margin: 5px;
 }
 nav ul {
+    background: #333;
     float: right;
     list-style: none;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 nav li {
-   margin: 60px 10px 5px 10px;
-   display: inline;
+   margin: 60px 5px 5px 5px;
+   display: none;
    color: #00BFFF;
 }
 nav li a {
@@ -58,19 +59,12 @@ nav li .fa {
     font-size: 18pt;
     color: inherit;
 }
-nav li:hover {
-    color: #fff;
-    //color: #00BFFF;
-}
 .nav-text {
-    opacity: 0;
+    display: none;
     //position: absolute;
 }
-nav li:hover .nav-text {
-    opacity: 100;
-}
 #banner {
-    height: 70px;
+    height: 50px;
     vertical-align: middle;
     display: block;
 }
@@ -82,11 +76,9 @@ section {
 }
 .textbox {
     background: rgba(0,0,0,0.7);
-    width: 600px;
+    width: 60%;
     border: 1px solid #fff;
-    margin-left: 60%;
-    margin-right: 50px;
-    margin-top: 600px;
+    margin: auto;
     font-size: 14pt;
     padding: 15px;
 }
