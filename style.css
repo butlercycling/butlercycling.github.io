@@ -9,7 +9,7 @@ body {
     margin: 0px;
     background: #555;
     color: #fff;
-    font-family: 'bebas-neue', sans serif;
+    font-family: 'bebas-neue', sans-serif;
 }
 nav {
     position: fixed;
@@ -73,10 +73,19 @@ section {
     text-align: center;
     font-size: 40pt;
 }
-#home {
-    background: url('img/test.jpg');
-    //background: #00BFFF;
-    color: #fff;
+@media (min-width: 1600) {
+    #home {
+        background: url('img/home-1920.jpg');
+        //background: #00BFFF;
+        color: #fff;
+    }
+}
+@media (max-width: 1600){
+    #home {
+        background: url('img/home-1600.jpg');
+        //background: #00BFFF;
+        color: #fff;
+    }
 }
 #team {
     background: #00BFFF;
