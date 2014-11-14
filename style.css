@@ -1,4 +1,11 @@
 @font-face {
+font-family:"district-thin";
+src:url('fonts/DistProTh.otf');
+font-style: normal;
+font-weight: 400;
+}
+
+@font-face {
 font-family:"bebas-neue";
 src:url('fonts/BebasNeue.otf');
 font-style: normal;
@@ -68,10 +75,29 @@ nav li:hover .nav-text {
     display: block;
 }
 section {
-    height: 800px;
-    padding-top: 300px;
+    height: 1000px;
+    padding-top: 100px;
     text-align: center;
     font-size: 40pt;
+}
+.textbox {
+    background: rgba(0,0,0,0.7);
+    width: 600px;
+    border: 1px solid #fff;
+    margin-left: 60%;
+    margin-right: 50px;
+    margin-top: 600px;
+    font-size: 14pt;
+    padding: 15px;
+}
+.textbox span {
+   font-family: 'district-thin', sans-serif;
+   font-weight: 300;
+}
+.textbox h1 {
+    margin: 15px 10px 15px 10px;
+    font-size: 45pt;
+    color: #00BFFF;
 }
 #home {
     background: url('img/home-1920.jpg');
@@ -79,9 +105,34 @@ section {
     color: #fff;
 }
 #team {
+    padding-top: 100px;
     background: #00BFFF;
     //background: #00BF33;
     color: #FFF;
+}
+#roster {
+    width: 60%;
+    margin: auto;
+    padding: 0px;
+    border-top: 1px solid #fff;
+}
+#roster-left {
+    width: 30%;
+    border-right: 1px solid #fff;
+    float: left;
+    list-style: none;
+    font-size: 18pt;
+}
+#roster-left ul {
+    list-style: none;
+}
+#roster-left li:hover {
+    color: #00BFFF;
+    background: #fff;
+}
+#roster-right {
+    width: 69%;
+    float: right;
 }
 #sponsors {
     background: #00BF33;
