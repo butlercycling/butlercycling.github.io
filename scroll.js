@@ -10,5 +10,8 @@ $(document).ready(function(){
             if (diff < 20 && diff >= 0) {
                 $("nav").css('zoom', ((100-diff)/100));
             }
+            else if (diff > 0) {
+              $("nav").css('zoom', .8);
+            }
         });	
 });
