@@ -39,7 +39,7 @@ nav .logo h1 {
 }
 nav #menu-toggle {
     float: right;
-    margin: 10px 30px;
+    margin: 10px 30px 10px 5px;
     font-size: 18pt;
 }
 nav ul {
@@ -57,6 +57,7 @@ nav li {
 }
 nav li a {
     font-size: 16pt;
+    display: block;
     margin-left: 5px;
     color: #fff;
     //color: #1A3F8F;
