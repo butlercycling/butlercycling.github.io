@@ -29,7 +29,7 @@ nav .logo {
     text-decoration: none;
     margin: 0px;
     float: left;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 nav .logo:hover {
     color: #fff;
@@ -88,7 +88,7 @@ section {
     margin: auto;
     font-size: 14pt;
     padding: 15px;
-    min-width: 315px;
+    min-width: 300px;
 }
 .textbox span {
    font-family: 'district-thin', sans-serif;
