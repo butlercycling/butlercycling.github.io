@@ -18,6 +18,12 @@ body {
     color: #fff;
     font-family: 'bebas-neue', sans-serif;
 }
+h1, h2, h3, h4 {
+    margin: 5px;
+}
+ul {
+    list-style: none;
+}
 nav {
     position: fixed;
     width: 100%;
@@ -106,7 +112,7 @@ section {
     color: #fff;
 }
 #team {
-    padding-top: 100px;
+    padding-top: 60px;
     background: #00BFFF;
     //background: #00BF33;
     color: #FFF;
@@ -139,6 +145,19 @@ section {
     width: 64%;
     float: right;
 }
+#roster-right img {
+    height: 30%;
+    width: 80%;
+}
+#roster-right .bio h3 {
+    margin: 5px;
+    font-size: 18pt;
+}
+#roster-right .bio p {
+    font-family: 'district-thin', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+}
 #sponsors {
     background: #00BF33;
     //background: #FF0000;
@@ -161,4 +180,58 @@ footer a {
 }
 .active {
     visibility: visible;
+}
+#contact-nav {
+    margin: auto;
+    margin-top: 15%;
+    width: 90%;
+}
+#contact p {
+    border-bottom: 1px solid #666;
+}
+#contact-nav i {
+   background: #333;
+   border: 1px solid #333;
+   border-radius: 50%;
+   width: 45px;
+   line-height: 45px;
+   height: 45px;
+   font-size: 22pt;
+   margin: auto;
+}
+#contact-nav li:hover i{
+    background: #777;
+    border: 1px solid #fff;
+}
+#contact-nav li {
+   text-align: center;
+   display:inline-block;
+   margin-right: 15px;
+   font-size: 14pt;
+   width: 140px;
+   heightL 140px;
+}
+.twitter:hover i{
+    color: #55ACEE;
+}
+#contact-nav .twitter:hover p {
+    border-bottom: 1px solid #55ACEE;
+}
+.fb:hover i{
+    color: #3B5998;
+}
+#contact-nav .fb:hover p{
+    border-bottom: 1px solid #3B5998;
+}
+.email:hover i{
+    color: #e74c3c;
+}
+#contact-nav .email:hover p{
+    border-bottom: 1px solid #e74c3c;
+}
+.phone:hover i {
+    color: #2ecc71;
+}
+#contact-nav .phone:hover p {
+    border-bottom: 1px solid #2ecc71;
 }
