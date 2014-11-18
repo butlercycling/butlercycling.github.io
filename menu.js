@@ -7,10 +7,10 @@ $(document).ready(function(){
                                           console.log(fname);
                                           $.ajax( "data/"+fname+".txt" )
                                                     .success(function(data) {
-                                                        $("#roster-right .bio span").html(data);
+                                                        $("#roster-right .bio p").html(data);
                                                     })
                                                     .fail(function() {
-                                                        $("#roster-right .bio span").html("");
+                                                        $("#roster-right .bio p").html("");
                                                         console.log("error: couldn't load "+fname+".txt");
                                                     });
                                         
