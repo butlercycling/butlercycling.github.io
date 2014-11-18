@@ -155,7 +155,7 @@ section {
 #roster-right .bio h3 {
     margin: 5px; 
 }
-#roster-right .bio span {
+#roster-right .bio p {
     font-family: 'district-thin', sans-serif;
     font-weight: 300;
     font-size: 16pt;
