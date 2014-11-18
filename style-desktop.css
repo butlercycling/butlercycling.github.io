@@ -100,8 +100,8 @@ section {
     color: #00BFFF;
 }
 #home {
-    background: url('img/home-1920.jpg');
-    background-color: #00BFFF;
+    background: url('img/home-1920.jpg') no-repeat;
+    background-color: #000;
     color: #fff;
 }
 #team {
@@ -112,27 +112,48 @@ section {
 }
 #roster {
     width: 60%;
+    height: 70%;
     margin: auto;
     padding: 0px;
     border-top: 1px solid #fff;
 }
 #roster-left {
     width: 30%;
+    height: 100%;
     border-right: 1px solid #fff;
     float: left;
     list-style: none;
     font-size: 18pt;
 }
+#roster-left .selected {
+    color: #00BFFF;
+    background: #FFF;
+}
 #roster-left ul {
     list-style: none;
 }
+#roster-left li {
+    cursor: pointer;
+}
 #roster-left li:hover {
     color: #00BFFF;
-    background: #fff;
+    background: #FFF;
 }
 #roster-right {
     width: 69%;
+    margin-top: 24px;
     float: right;
+}
+#roster-right img {
+    height: 40%;
+}
+#roster-right .bio h3 {
+    margin: 5px; 
+}
+#roster-right .bio span {
+    font-family: 'district-thin', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
 }
 #sponsors {
     background: #00BF33;
