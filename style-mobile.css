@@ -186,6 +186,9 @@ footer a {
     margin-top: 15%;
     width: 90%;
 }
+#contact-nav ul {
+    padding-left: 0px;
+}
 #contact p {
     border-bottom: 1px solid #666;
 }
@@ -208,8 +211,8 @@ footer a {
    display:inline-block;
    margin-right: 15px;
    font-size: 14pt;
-   width: 140px;
-   heightL 140px;
+   width: 130px;
+   height: 130px;
 }
 .twitter:hover i{
     color: #55ACEE;
