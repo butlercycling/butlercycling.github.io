@@ -214,6 +214,10 @@ footer a {
    width: 130px;
    height: 130px;
 }
+#contact-nav li a {
+    text-decoration: none;
+    color: inherit;
+}
 .twitter:hover i{
     color: #55ACEE;
 }

@@ -172,7 +172,8 @@ section {
 }
 footer {
     background: #000;
-    height: 30px;
+    font-family: 'bebas-neue', sans-serif;
+    height: 20px;
     padding: 20px;
     text-align: center;
 }
@@ -203,6 +204,10 @@ footer a {
    display:inline-block;
    margin-right: 30px;
    font-size: 18pt;
+}
+#contact-nav li a {
+    text-decoration: none;
+    color: inherit;
 }
 #contact-nav li:hover i {
     border: 1px solid #fff;
