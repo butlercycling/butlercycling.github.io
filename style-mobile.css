@@ -20,6 +20,7 @@ body {
 }
 h1, h2, h3, h4 {
     margin: 5px;
+    font-size: 36pt;
 }
 ul {
     list-style: none;
@@ -35,13 +36,12 @@ nav .logo {
     text-decoration: none;
     margin: 0px;
     float: left;
-    font-size: 16pt;
 }
 nav .logo:hover {
     color: #fff;
 }
 nav .logo h1 {
-    margin: 5px;
+    font-size: 26pt;
 }
 nav #menu-toggle {
     float: right;
@@ -84,7 +84,7 @@ nav li .fa {
 }
 section {
     height: 500px;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
     font-size: 40pt;
 }
@@ -148,6 +148,7 @@ section {
 #roster-right img {
     height: 30%;
     width: 80%;
+    max-width: 250px;
 }
 #roster-right .bio h3 {
     margin: 5px;
@@ -241,4 +242,15 @@ footer a {
 }
 #contact-nav .phone:hover p {
     border-bottom: 1px solid #2ecc71;
+}
+.sponsor-list img {
+    max-width: 90px;
+    margin: 15px;
+}
+.sponsor-list {
+    margin-top: 5px;
+    padding: 0px;
+}
+.sponsor-list li {
+    display: inline-block;
 }
