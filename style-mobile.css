@@ -258,3 +258,11 @@ footer a {
     max-height: 80px;
     margin: 10px;
 }
+.main-spon {
+    max-width: 130px !important;
+    max-height: 130px !important;
+}
+.secondary-spon {
+    max-width: 80px;
+    max-height: 80px;
+}
