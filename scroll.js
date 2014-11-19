@@ -1,7 +1,7 @@
 $(document).ready(function(){
         $("nav a").on("click", function() {
                var h = this.hash
-               if (h == ""){
+               if (h == "#"){
                    h = "#home";
                }
                var pos = $(h).offset().top;
