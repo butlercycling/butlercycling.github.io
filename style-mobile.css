@@ -244,8 +244,8 @@ footer a {
     border-bottom: 1px solid #2ecc71;
 }
 .sponsor-list img {
-    max-width: 90px;
-    margin: 15px;
+    height: 100%;
+    width: 100%
 }
 .sponsor-list {
     margin-top: 5px;
@@ -253,4 +253,7 @@ footer a {
 }
 .sponsor-list li {
     display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
 }
