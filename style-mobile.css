@@ -114,7 +114,8 @@ section {
 }
 #team {
     padding-top: 60px;
-    background: #00BFFF;
+    background: #3498db;
+    //background: #00BFFF;
     //background: #00BF33;
     color: #FFF;
 }
@@ -161,7 +162,8 @@ section {
     font-size: 12pt;
 }
 #sponsors {
-    background: #00BF33;
+    background: #2ecc71;
+    //background: #00BF33;
     //background: #FF0000;
     color: #FFF;
 }
