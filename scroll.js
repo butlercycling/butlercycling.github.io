@@ -1,13 +1,15 @@
 $(document).ready(function(){
-        $("nav a").on("click", function() {
-               var h = this.hash
-               if (h == ""){
+
+       $("nav a").on("click", function() {
+            var h = this.hash
+            if (h == ""){
                    h = "#home";
-               }
-               var pos = $(h).offset().top;
-               $('html, body').animate({scrollTop:pos}, 'slow');
-               window.location.hash = this.hash;
-               return false;
+            }
+            var pos = $(h).offset().top;
+            $('html, body').animate({scrollTop:pos}, 'slow',function(){
+                           window.location.hash = h;
+            });
+            return false;
         });
         $(document).scroll(function(){
             var diff = $(window).scrollTop();
