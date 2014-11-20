@@ -2,24 +2,25 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Butler Cycling, presented by Climate Master, is a new category 1/2 development cycling team based in Colorado.">
-        <meta name="keywords" content="cycling,racing,colorado,bicycle racing">  
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.2">
+        <meta name="description" content="Butler Cycling, presented by Climate Master, is a new category 2/3 development cycling team based in Colorado.">
+        <meta name="keywords" content="cycling,racing,colorado,bicycle racing,sports">  
         <meta name="google-site-verification" content="G_X9yvHrv5PSd3r8mKMIaTBTnvGaexRC8-vXj8wsG80" />
         <title>Butler Cycling Team</title>
         <link rel="stylesheet" media="(max-width: 900px)" type="text/css" href="style-mobile.css">
         <link rel="stylesheet" media="(min-width: 901px)" type="text/css" href="style-desktop.css">
         <link rel="stylesheet" type-"text/css" href="font-awesome.css">
+        <link rel="alternate" href="butlercyclingteam.com" hreflang="en-us" />
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="scroll.js"></script>
         <script src="mobile.js"></script>
         <script src="menu.js"></script>
         <script src="ga.js"></script>
     </head>
-    <body>
+    <body itemprop itemtype="http://schema.org/SportsTeam">
     <nav id="banner">
         <a href="/" class="logo">
-            <h1> Butler Cycling Team </h1>
+            <h1 itemprop="name"> Butler Cycling Team </h1>
         </a>
         <ul class="nav-links">
             <li>
@@ -59,18 +60,18 @@
             <div id="roster">
                 <div id="roster-left">
                     <ul>
-                        <li class="selected">Grant Vanhoose</li>
-                        <li>Steve Weiler</li>
-                        <li>Lucas Elms</li>
-                        <li>Zack Jensen</li>
-                        <li>Matt Kotarbinski</li>
-                        <li>Jon Moro</li>
-                        <li>Tyler Nabours</li>
-                        <li>Will Nabours</li>
-                        <li>Nate Prewitt</li>
-                        <li>Matt Skrdla</li>
-                        <li>Nate Taggatz</li>
-                        <li>Kevin Tempel</li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person" class="selected"><span itemprop="name">Grant Vanhoose</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Steve Weiler</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Lucas Elms</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Zack Jensen</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Matt Kotarbinski</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jon Moro</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Tyler Nabours</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Will Nabours</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Nate Prewitt</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Matt Skrdla</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Nate Taggatz</span></li>
+                        <li itemprop="member" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Kevin Tempel</span></li>
                     </ul>
                 </div>
                 <div id="roster-right">
@@ -85,24 +86,24 @@
         <section id="sponsors">
             <h1>sponsors</h1>
             <ul class="sponsor-list">
-                <li class="main-spon"><a href="http://www.butlermfg.com/"><img src="img/Butler.png" alt="Butler Mfg"></a></li>
-                <li class="main-spon"><a href="http://www.climatemaster.com"><img src="img/ClimateMaster.png" alt="Climate Master"></a></li>
-                <li><a href="http://www.vhcon.com/"><img src="img/vhcon.png" alt="Vanhoose Construction"></a></li>
-                <li><a href="http://visionsource-foothillseyecare.com/"><img src="img/Spex.png" alt="Spex"></a></li>
-                <li><a href="http://www.cateye.com/en/"><img src="img/Cateye.png" alt="Cateye Electronics"></a></li>
-                <li><a href="http://www.rudyprojectusa.com/"><img src="img/RudyProject.png"></a></li>
-                <li><a href="http://www.1stcitymortgagegroup.com/"><img src="img/FirstCity.png"></a></li>
-                <li><a href="http://roulersportswear.com/"><img src="img/Rouler.png"></a></li>
-                <li><a href="http://www.provelobikes.com/"><img src="img/proVelo.png"></a></li>
-                <li><a href="https://www.facebook.com/podiumsportsmassage"><img src="img/PodiumSportsMassage.png"></a></li>
-                <li><a href="http://www.wbkitchen.com/"><img src="img/WBKitchen.png"></a></li>
+                <li class="main-spon" itemscope itemtype="http://schema.org/Corporation"><a href="http://www.butlermfg.com/" itemprop="url"><img src="img/Butler.png" alt="Butler Manufacturing"></a><span itemprop="name">Butler Manufacturing</span></li>
+                <li class="main-spon" itemscope itemtype="http://schema.org/Corporation"><a href="http://www.climatemaster.com" itemprop="url"><img src="img/ClimateMaster.png" alt="Climate Master" itemprop="logo"></a><span itemprop="name">Climate Master</span></li>
+                <li itemscope itemtype="http://schema.org/Corporation"><a href="http://www.vhcon.com/" itemprop="url"><img src="img/vhcon.png" alt="Vanhoose Construction" itemprop="logo"></a><span itemprop="name">Vanhoose Construction</span></li>
+                <li itemscope itemtype="http://schema.org/LocalBusiness"><a href="http://visionsource-foothillseyecare.com/" itemprop="url"><img src="img/Spex.png" alt="Spex" itemprop="logo"></a><span itemprop="name">Spex Vision Care</span></li>
+                <li itemscope itemtype="http://schema.org/Corporation"><a href="http://www.cateye.com/en/" itemprop="url"><img src="img/Cateye.png" alt="Cateye Electronics" itemprop="logo"></a><span itemprop="name">Cateye Electronics</span></li>
+                <li itemscope itemtype="http://schema.org/Corporation"><a href="http://www.rudyprojectusa.com/" itemprop="url"><img src="img/RudyProject.png" itemprop="logo"></a><span itemprop="name">Rudy Project</span></li>
+                <li itemscope itemtype="http://schema.org/LocalBusiness"><a href="http://www.1stcitymortgagegroup.com/" itemprop="url"><img src="img/FirstCity.png" itemprop="logo"></a><span itemprop="name">First City Mortgage</span></li>
+                <li itemscope itemtype="http://schema.org/Corporation"><a href="http://roulersportswear.com/" itemprop="url"><img src="img/Rouler.png" itemprop="logo"></a><span itemprop="name">Rouler Sportswear</span></li>
+                <li itemscope itemtype="http://schema.org/LocalBusiness"><a href="http://www.provelobikes.com/" itemprop="url"><img src="img/proVelo.png" itemprop="logo"></a><span itemprop="name">proVelo Bicycles</span></li>
+                <li itemscope itemtype="http://schema.org/LocalBusiness"><a href="https://www.facebook.com/podiumsportsmassage" itemprop="url"><img src="img/PodiumSportsMassage.png" itemprop="logo"></a><span itemprop="name">Podium Sports Massage</span></li>
+                <li itemscope itemtype="http://schema.org/LocalBusiness"><a href="http://www.wbkitchen.com/" itemprop="url"><img src="img/WBKitchen.png" itemprop="logo"></a><span itemprop="name">White Buffalo Kitchen</span></li>
             </ul>
         </section>
         <section id="contact">
-            <div id="contact-nav">
+            <div id="contact-nav" itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
             <ul>
-                <li class="phone"><a href="tel:970111111"><i class="fa fa-phone"></i><p>970-xxx-xxx</p></a></li>
-                <li class="email"><a href="mailto:email@email.com"><i class="fa fa-envelope"></i><p>email@email.com</p></a></li>
+                <li class="phone"><a href="tel:970111111"><i class="fa fa-phone"></i><p itemprop="telephone">970-xxx-xxx</p></a></li>
+                <li class="email"><a href="mailto:email@email.com"><i class="fa fa-envelope"></i><p itemprop="email">email@email.com</p></a></li>
                 <li class="twitter"><a href="http://twitter.com/butlercyclingteam"><i class="fa fa-twitter"></i><p>@butlercyclingteam</p></a></li>
                 <li class="fb"><a href="http://facebook.com/butlercyclingteam"><i class="fa fa-facebook"></i><p>Follow us!</p></a></li>
             </ul>
