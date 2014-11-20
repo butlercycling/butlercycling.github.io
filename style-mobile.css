@@ -252,6 +252,9 @@ footer a {
     margin-top: 5px;
     padding: 0px;
 }
+.sponsor-list span {
+    visibility:hidden;
+}
 .sponsor-list li {
     display: inline-block;
     max-width: 80px;
