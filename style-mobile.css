@@ -58,7 +58,7 @@ nav ul {
 nav li {
    padding: 5px;
    border-bottom: 1px solid #fff;
-   background: #00BFFF;
+   background: #3498db;
    color: #00BFFF;
 }
 nav li a {
@@ -105,11 +105,11 @@ section {
 .textbox h1 {
     margin: 15px 10px 15px 10px;
     font-size: 45pt;
-    color: #00BFFF;
+    color: #3498db;
 }
 #home {
     background: url('img/home-mobile.jpg');
-    background-color: #00BFFF;
+    background-color: #3498db;
     color: #fff;
 }
 #team {
