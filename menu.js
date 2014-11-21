@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('#roster-left li').on('click', function() {
                                           $('.selected').removeClass('selected');
                                           $(this).addClass('selected');
-                                          var fname = $(this).html().toLowerCase().replace(/ /g, '');
+                                          var fname = $(this).children('span').html().toLowerCase().replace(/ /g, '');
                                           console.log(fname);
                                           $.ajax( "data/"+fname+".txt" )
                                                     .success(function(data) {
