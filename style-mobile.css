@@ -108,7 +108,7 @@ section {
     color: #3498db;
 }
 #home {
-    background: url('img/home-mobile.jpg');
+    background: url('img/home-mobile.jpg') no-repeat;
     background-color: #3498db;
     color: #fff;
 }
