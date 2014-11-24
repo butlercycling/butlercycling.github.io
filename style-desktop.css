@@ -238,10 +238,10 @@ footer a {
 .email:hover p{
     border-bottom: 1px solid #e74c3c;
 }
-.phone:hover i {
+.insta:hover i {
     color: #2ecc71;
 }
-.phone:hover p {
+.insta:hover p {
     border-bottom: 1px solid #2ecc71;
 }
 .sponsor-list img {

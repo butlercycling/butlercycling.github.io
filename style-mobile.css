@@ -240,10 +240,10 @@ footer a {
 #contact-nav .email:hover p{
     border-bottom: 1px solid #e74c3c;
 }
-.phone:hover i {
+.insta:hover i {
     color: #2ecc71;
 }
-#contact-nav .phone:hover p {
+#contact-nav .insta:hover p {
     border-bottom: 1px solid #2ecc71;
 }
 .sponsor-list img {
