@@ -12,7 +12,7 @@ $(document).ready(function(){
                                                         console.log("error: couldn't load "+fname+".txt");
                                                     })
                                                     .always(function() {
-                                                        $("#roster-right h3").html($(this).html());
+                                                        $("#roster-right h3").html($(".selected").html());
                                                     });
     });
 });
