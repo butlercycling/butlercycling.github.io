@@ -84,6 +84,7 @@ nav li .fa {
 }
 section {
     height: 500px;
+    height: 100vw;
     padding-top: 60px;
     text-align: center;
     font-size: 40pt;
