@@ -41,11 +41,11 @@ nav .logo:hover {
     color: #fff;
 }
 nav .logo h1 {
-    font-size: 26pt;
+    font-size: 24pt;
 }
 nav #menu-toggle {
     float: right;
-    margin: 10px 30px 10px 5px;
+    margin: 12px 30px 10px 5px;
     font-size: 18pt;
 }
 nav ul {
