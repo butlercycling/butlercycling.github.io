@@ -1,1 +1,11 @@
-Come play football
+d="details">
+                            <tr>
+                                <td>DOB:</td> <td> xx/xx/xxxx </td>
+                            </tr>
+                            <tr>
+                                <td>Height:</td> <td> x'x"</td>
+                            </tr>
+                            <tr>
+                                <td>Specialty:</td> <td>Women</td>
+                            </tr>
+                        </table>

@@ -1,1 +1,11 @@
-Climbs too fast
+<table id="details">
+                            <tr>
+                                <td>DOB:</td> <td> xx/xx/xxxx </td>
+                            </tr>
+                            <tr>
+                                <td>Height:</td> <td> x'x"</td>
+                            </tr>
+                            <tr>
+                                <td>Specialty:</td> <td>Demoralizing Opponents</td>
+                            </tr>
+                        </table>

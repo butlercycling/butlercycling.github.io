@@ -1,1 +1,11 @@
-dom władzy
+d="details">
+                            <tr>
+                                <td>DOB:</td> <td> xx/xx/xxxx </td>
+                            </tr>
+                            <tr>
+                                <td>Height:</td> <td> x'x"</td>
+                            </tr>
+                            <tr>
+                                <td>Specialty:</td> <td>Power</td>
+                            </tr>
+                        </table>

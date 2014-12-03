@@ -157,10 +157,17 @@ section {
     margin: 5px;
     font-size: 18pt;
 }
-#roster-right .bio p {
+#roster-right .bio table {
     font-family: 'district-thin', sans-serif;
     font-weight: 300;
     font-size: 12pt;
+    width: 100%;
+}
+#roster-right a {
+    font-size: 12pt;
+}
+#roster-right a:hover {
+    color: #fff;
 }
 #sponsors {
     background: #2ecc71;

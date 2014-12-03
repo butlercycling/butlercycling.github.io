@@ -8,7 +8,7 @@ $(document).ready(function(){
                                                         $("#roster-right .bio p").html(data);
                                                     })
                                                     .fail(function() {
-                                                        $("#roster-right .bio p").html("");
+                                                        $("#roster-right .bio table").html("");
                                                         console.log("error: couldn't load "+fname+".txt");
                                                     })
                                                     .always(function() {

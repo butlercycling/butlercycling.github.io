@@ -162,10 +162,19 @@ section {
 #roster-right .bio h3 {
     margin: 5px; 
 }
-#roster-right .bio p {
+#roster-right .bio table {
     font-family: 'district-thin', sans-serif;
     font-weight: 300;
     font-size: 14pt;
+    text-align: left;
+    margin: auto;
+    width: 55%;
+}
+#roster-right a {
+    font-size: 14pt;
+}
+#roster-right a:hover {
+    color: #fff;
 }
 #sponsors {
     background: #2ecc71;
