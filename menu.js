@@ -5,7 +5,7 @@ $(document).ready(function(){
                                           var fname = $(this).children('span').html().toLowerCase().replace(/ /g, '');
                                           $.ajax( "data/"+fname+".txt" )
                                                     .success(function(data) {
-                                                        $("#roster-right .bio p").html(data);
+                                                        $("#roster-right .bio table").html(data);
                                                     })
                                                     .fail(function() {
                                                         $("#roster-right .bio table").html("");
