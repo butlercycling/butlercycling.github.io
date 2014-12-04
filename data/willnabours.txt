@@ -1,4 +1,4 @@
-<table id="details">
+<tbody>
                             <tr>
                                 <td>DOB:</td> <td> xx/xx/xxxx </td>
                             </tr>
@@ -8,4 +8,4 @@
                             <tr>
                                 <td>Specialty:</td> <td>Also Brothering</td>
                             </tr>
-                        </table>
+                        </tbody>
