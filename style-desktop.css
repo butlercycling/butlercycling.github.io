@@ -134,7 +134,7 @@ section {
     border-top: 1px solid #fff;
 }
 #roster .athlete {
-    float: left;
+    display: inline-block;
     position: relative;
     z-index: 0;
     margin: 15px;
