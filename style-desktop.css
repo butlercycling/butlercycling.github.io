@@ -14,7 +14,7 @@ font-weight: 400;
 
 body {
     margin: 0px;
-    background: #555;
+    background: #666;
     color: #fff;
     font-family: 'district-thin', sans-serif;
 }
@@ -86,21 +86,31 @@ nav li:hover .nav-text {
     display: block;
 }
 section {
-    height: 1000px;
-    height: 100vh;
     min-height: 800px;
+    min-height: 100vh;
     padding-top: 100px;
     text-align: center;
     font-size: 40pt;
     background-attachment: fixed !important;
 }
+#home-content {
+    width: 600px;
+    margin: auto;
+    margin-top: 31%;
+}
+.down-arrow i {
+   color: #fff;
+   background: rgba(0,0,0,0.7);
+   border-radius: 50%;
+   width: 40px;
+   line-height: 40px;
+   height: 40px;
+   font-size: 16pt;
+   margin: auto;
+}
 .textbox {
     background: rgba(0,0,0,0.7);
-    width: 600px;
     border: 1px solid #fff;
-    float: right;
-    margin-right: 50px;
-    margin-top: 33%;
     font-size: 14pt;
     padding: 15px;
 }

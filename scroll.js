@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-       $("nav a").on("click", function() {
+       $("nav a, .down-arrow a").on("click", function() {
             var h = this.hash
             if (h == ""){
                    h = "#home";
