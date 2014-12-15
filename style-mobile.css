@@ -91,6 +91,7 @@ section {
 }
 #home-content {
     width: 80%;
+    min-width: 280px;
     margin: auto;
     margin-top: 28%;
 }
@@ -110,7 +111,6 @@ section {
     border: 1px solid #fff;
     font-size: 14pt;
     padding: 15px;
-    min-width: 280px;
 }
 .textbox span {
    font-family: 'district-thin', sans-serif;
