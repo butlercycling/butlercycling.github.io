@@ -156,7 +156,7 @@ section {
     float: right;
     margin: 10px;
 }
-#sponsors {
+#partners {
     background: #2ecc71;
     //background: #00BF33;
     //background: #FF0000;
@@ -241,15 +241,15 @@ footer a {
 #contact-nav .insta:hover p {
     border-bottom: 1px solid #2ecc71;
 }
-.sponsor-list img {
+.partner-list img {
     height: 100%;
     width: 100%;
 }
-.sponsor-list {
+.partner-list {
     margin-top: 5px;
     padding: 0px;
 }
-.sponsor-list li {
+.partner-list li {
     display: inline-block;
     overflow: hidden;
     max-width: 80px;
