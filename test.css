@@ -1,0 +1,181 @@
+@font-face {
+font-family:"district-thin";
+src:url('fonts/DistProTh.otf');
+font-style: normal;
+font-weight: 400;
+}
+
+@font-face {
+font-family:"bebas-neue";
+src:url('fonts/BebasNeue.otf');
+font-style: normal;
+font-weight: 400;
+}
+html {
+    height: 100% !important;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: 'district-thin', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'bebas-neue', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    display: block;
+}
+#butler {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    z-index: 999;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 20pt;
+}
+#butler h1 {
+    font-size: 120pt;
+}
+
+#mainnav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    padding: 10px 0;
+    width: 100%;
+    opacity: 0.5;
+    display: block;
+}
+#mainnav:hover {
+    opacity: 1;
+}
+#mainnav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+#mainnav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+#mainnav a {
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+#mainnav a:hover {
+    color: #3498db;
+    font-size: 20px;
+}
+#home-content {
+    width: 100%;
+    height: 120%;
+    background: no-repeat center bottom;
+    background-size: cover !important;
+    position: relative;
+    background-image: url('img/home-1920.jpg');
+    display: block;
+    opacity: 1;
+}
+#home-content:after {
+    opacity: 0.4;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background: #000;
+}
+.down-arrow i {
+   color: #fff;
+   background: rgba(0,0,0,0.7);
+   border-radius: 50%;
+   width: 40px;
+   line-height: 40px;
+   height: 40px;
+   font-size: 16pt;
+   margin: auto;
+}
+.textbox {
+    background: rgba(0,0,0,0.7);
+    border: 1px solid #fff;
+    font-size: 14pt;
+    padding: 15px;
+}
+.textbox span {
+   font-family: 'district-thin', sans-serif;
+   font-weight: 300;
+}
+.textbox h1 {
+    margin: 15px 10px 15px 10px;
+    font-size: 45pt;
+    color: #3498db;
+    //color: #00BFFF;
+}
+#home {
+    background: url('img/home-1920.jpg') no-repeat;
+    background-color: #000;
+    color: #fff;
+}
+#team {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background: #3498db;
+    //background: #00BFFF;
+    //background: #00BF33;
+    color: #FFF;
+}
+#roster {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    padding: 0px;
+    border-top: 1px solid #fff;
+}
+#roster .athlete {
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+}
+#roster .athlete img {
+    width: 100%;
+}
+#roster .athlete span {
+    position: absolute;
+    top: 140px;
+    padding: 10px;
+    font-size: 18pt;
+    left: 0px;
+    width: 80%;
+    visibility: hidden;
+}
+#roster .athlete:hover span {
+    background: rgb(52, 152, 219);
+    background: rgba(52, 152, 219, .8);
+    visibility: visible;
+}
+.topnav {
+    position: fixed;
+    top: 0;
+    bottom: inherit;
+    background: rgba(0,0,0,0.3);
+}
