@@ -49,6 +49,10 @@ section {
     font-size: 120pt;
 }
 
+.down-arrow {
+    margin: 30px;
+}
+
 #mainnav {
     position: absolute;
     left: 0;
@@ -82,7 +86,6 @@ section {
 }
 #mainnav a:hover {
     color: #3498db;
-    font-size: 20px;
 }
 #home-content {
     width: 100%;
@@ -104,13 +107,17 @@ section {
 }
 .down-arrow i {
    color: #fff;
-   background: rgba(0,0,0,0.7);
+   border: 1px solid #fff;
    border-radius: 50%;
    width: 40px;
    line-height: 40px;
    height: 40px;
    font-size: 16pt;
    margin: auto;
+   opacity: 0.7;
+}
+.down-arrow i:hover {
+   color: #3498db;
 }
 .textbox {
     background: rgba(0,0,0,0.7);
@@ -131,6 +138,7 @@ section {
 #home {
     background: url('img/home-1920.jpg') no-repeat;
     background-color: #000;
+    background-attachment: fixed !important;
     color: #fff;
 }
 #team {
@@ -142,11 +150,10 @@ section {
     color: #FFF;
 }
 #roster {
-    width: 80%;
+    width: 85%;
     height: 70%;
     margin: auto;
     padding: 0px;
-    border-top: 1px solid #fff;
 }
 #roster .athlete {
     display: inline-block;
@@ -174,8 +181,8 @@ section {
     visibility: visible;
 }
 .topnav {
-    position: fixed;
+    position: fixed !important;
     top: 0;
-    bottom: inherit;
+    bottom: inherit !important;
     background: rgba(0,0,0,0.3);
 }
