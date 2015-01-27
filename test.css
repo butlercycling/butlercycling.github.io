@@ -165,6 +165,7 @@ section {
     text-align: center;
 }
 #roster .athlete {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     display: inline-block;
     position: relative;
     z-index: 0;
@@ -196,11 +197,13 @@ section {
     background: rgba(0,0,0,0.3);
 }
 #partners {
-    background: #2ecc71;
+    background: #ecf0f1;
+    //background: #2ecc71;
     color: #FFF;
 }
 .partner-list img {
-    max-width: 210px;
+    max-width: 180px;
+    max-height: 80px;
     margin: 15px;
 }
 .partner-list {
@@ -209,7 +212,113 @@ section {
     text-align: center;
     margin-top: 10%;
     padding: 0px;
+    display: table;
 }
 .partner-list li {
     display: inline-block;
+}
+#contact {
+    background: #000;
+    height: 250px;
+    //background: #2c3e50;
+    //background: #FFFF00;
+    color: #FFF;
+}
+footer {
+    background: #000;
+    color: #fff;
+    font-family: 'district-thin', sans-serif;
+    font-size: 11pt;
+    height: 20px;
+    border-top: 1px solid #222;
+    padding: 15px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #00BFFF;
+}
+#contact-nav {
+    margin: auto;
+    margin-top: 5%;
+    width: 70%;
+    min-width: 900px;
+    text-align: center;
+}
+#contact-nav i {
+   background: #222;
+   //background: #333;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   width: 70px;
+   line-height: 70px;
+   height: 70px;
+   font-size: 32pt;
+   margin: auto;
+   opacity: 0.7;
+}
+#contact-nav li:hover i{
+    opacity: 1;
+}
+#contact-nav li {
+   text-align: center;
+   display:inline-block;
+   margin-right: 30px;
+   font-size: 18pt;
+}
+#contact-nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+#contact-nav li:hover i {
+    border: 1px solid #fff;
+}
+.twitter:hover i{
+    color: #55ACEE;
+}
+.twitter:hover p {
+    border-bottom: 1px solid #55ACEE;
+}
+.fb:hover i{
+    color: #3B5998;
+}
+.fb:hover p{
+    border-bottom: 1px solid #3B5998;
+}
+.email:hover i{
+    color: #e74c3c;
+}
+.email:hover p{
+    border-bottom: 1px solid #e74c3c;
+}
+.insta:hover i {
+    color: #2ecc71;
+}
+.insta:hover p {
+    border-bottom: 1px solid #2ecc71;
+}
+#calendar {
+    padding-top: 50px;
+    color: #fff;
+    background: #7f8c8d;
+}
+.row {
+    padding: 10px;
+    margin: auto;
+    width: 95%;
+    border-top: 1px solid #222;
+}
+.row span {
+    margin-right: 33%;
+    font-size: 10pt;
+}
+.toprow {
+    font-size: 15pt;
+    padding: 10px;
+    margin: auto;
+    width: 95%;
+    font-family: 'bebas-neue', sans-serif;
+}
+.toprow span {
+    margin-right: 33%;
 }
