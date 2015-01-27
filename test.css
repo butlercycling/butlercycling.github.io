@@ -44,11 +44,9 @@ section {
     z-index: 999;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-size: 20pt;
-    font-size: 2vw;
 }
 #butler h1 {
     font-size: 120pt;
-    font-size: 11vw;
 }
 
 .down-arrow {
@@ -89,17 +87,13 @@ section {
 #mainnav a:hover {
     color: #3498db;
 }
-#home {
-    min-height: 600px;
-}
 #home-content {
     width: 100%;
     height: 120%;
     background: no-repeat center bottom;
     background-size: cover !important;
-    background-attachment: fixed !important;
     position: relative;
-    background-image: url('img/home2-1920.jpg');
+    background-image: url('img/home-1920.jpg');
     display: block;
     opacity: 1;
 }
@@ -150,19 +144,16 @@ section {
 #team {
     padding-top: 100px;
     padding-bottom: 20px;
-    background: rgb(41,128,185);
-    //background: #3498db;
+    background: #3498db;
     //background: #00BFFF;
     //background: #00BF33;
     color: #FFF;
-    min-height: 700px;
 }
 #roster {
     width: 85%;
     height: 70%;
     margin: auto;
     padding: 0px;
-    text-align: center;
 }
 #roster .athlete {
     display: inline-block;
@@ -194,22 +185,4 @@ section {
     top: 0;
     bottom: inherit !important;
     background: rgba(0,0,0,0.3);
-}
-#partners {
-    background: #2ecc71;
-    color: #FFF;
-}
-.partner-list img {
-    max-width: 210px;
-    margin: 15px;
-}
-.partner-list {
-    margin: auto;
-    width: 80%;
-    text-align: center;
-    margin-top: 10%;
-    padding: 0px;
-}
-.partner-list li {
-    display: inline-block;
 }
