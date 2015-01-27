@@ -219,7 +219,7 @@ section {
 }
 #contact {
     background: #000;
-    height: 250px;
+    height: 200px;
     //background: #2c3e50;
     //background: #FFFF00;
     color: #FFF;
@@ -250,10 +250,10 @@ footer a {
    //background: #333;
    border: 1px solid #fff;
    border-radius: 50%;
-   width: 70px;
-   line-height: 70px;
-   height: 70px;
-   font-size: 32pt;
+   width: 60px;
+   line-height: 60px;
+   height: 60px;
+   font-size: 26pt;
    margin: auto;
    opacity: 0.7;
 }
@@ -265,6 +265,9 @@ footer a {
    display:inline-block;
    margin-right: 30px;
    font-size: 18pt;
+}
+#contact-nav li p {
+    font-size: 14pt;
 }
 #contact-nav li a {
     text-decoration: none;
@@ -298,19 +301,54 @@ footer a {
     border-bottom: 1px solid #2ecc71;
 }
 #calendar {
-    padding-top: 50px;
+    height: 100%;
+    width: 100%;
     color: #fff;
-    background: #7f8c8d;
+}
+#calendar-content {
+    height: 120%;
+    width: 100%;
+    display: block;
+    position: relative;
+    background: no-repeat center bottom;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-image: url('img/calendar-1920.jpg');
+    opacity: 1;
+}
+#calendar-content:after {
+    opacity: 0.4;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background: #000;
+}
+#cal {
+    padding-top: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    z-index: 8;
+    font-size: 20pt;
+    font-size: 2vw;
 }
 .row {
     padding: 10px;
     margin: auto;
     width: 95%;
+    text-align: left;
     border-top: 1px solid #222;
 }
 .row span {
-    margin-right: 33%;
+    margin-right: 26%;
     font-size: 10pt;
+}
+.row span:last-child {
+    margin-right: 10px;
 }
 .toprow {
     font-size: 15pt;
