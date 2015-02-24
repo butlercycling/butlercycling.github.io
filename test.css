@@ -103,7 +103,7 @@ section {
     background-size: cover !important;
     background-attachment: fixed !important;
     position: relative;
-    background-image: url('img/home2-1920.jpg');
+    background-image: url('img/home3-1920.jpg');
     display: block;
     opacity: 1;
 }
@@ -323,4 +323,7 @@ footer a {
 }
 .toprow span {
     margin-right: 33%;
+}
+.active {
+    visibility: visible;
 }

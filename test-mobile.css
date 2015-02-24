@@ -34,13 +34,13 @@ section {
 }
 #butler {
     position: absolute;
-    top: 50px;
+    top: 10%;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-align: center;
     width: 80%;
-    z-index: 999;
+    z-index: 500;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-size: 20pt;
     font-size: 6vw;
@@ -60,10 +60,10 @@ section {
     left: 0;
     right: 0;
     top: 0;
-    z-index: 9;
+    z-index: 1000;
     padding: 10px 0;
     width: 100%;
-    opacity: 0.6;
+    height: 20px;
     display: block;
     background: #000;
 }
@@ -74,12 +74,17 @@ section {
     padding: 0;
     list-style: none;
     text-align: center;
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
+    margin-top: 30px;
+    visibility: hidden;
 }
 #mainnav ul li {
-    display: inline;
-    margin: 0 20px;
+    display: block;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #bbb;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
 }
 #mainnav a {
     text-decoration: none;
@@ -281,6 +286,7 @@ footer a {
 #calendar {
     height: 100%;
     width: 100%;
+    overflow: visible;
     color: #fff;
 }
 #calendar-content {
@@ -324,7 +330,7 @@ footer a {
 #cal table td {
     text-align: left;
     border-top: 1px dotted #999;
-    font-size: 14pt;
+    font-size: 11pt;
     padding: 10px 10px 10px 0;
 }
 .toprow {
@@ -333,4 +339,12 @@ footer a {
 }
 .toprow span {
     margin-right: 33%;
+}
+.active {
+    visibility: visible !important;
+}
+#menu-toggle {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
 }
