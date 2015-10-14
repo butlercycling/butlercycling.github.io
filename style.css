@@ -1,0 +1,115 @@
+@font-face {
+font-family:"district-thin";
+src:url('fonts/DistProTh.otf');
+font-style: normal;
+font-weight: 400;
+}
+@font-face {
+font-family:"bebas-neue";
+src:url('fonts/BebasNeue.otf');
+font-style: normal;
+font-weight: 400;
+}
+html {
+    height: 100% !important;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'district-thin', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'bebas-neue', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+section {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    display: block;
+}
+#butler {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    z-index: 999;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    font-size: 20pt;
+    font-size: 2vw;
+    color: #FFF;
+    -webkit-animation: fadeIn .4s linear;
+}
+#butler h1 {
+    font-size: 120pt;
+    font-size: 11vw;
+}
+
+#home {
+    min-height: 600px;
+}
+#home-content {
+    width: 100%;
+    height: 120%;
+    background: no-repeat center bottom;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    position: relative;
+    background-image: url('img/home-1920.jpg');
+    display: block;
+    opacity: 1;
+}
+#home-content:after {
+    opacity: 0.65;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background: #000;
+}
+#contact-nav {
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+    min-width: 900px;
+    text-align: center;
+}
+#contact-nav i {
+   width: 50px;
+   line-height: 50px;
+   height: 50px;
+   font-size: 26pt;
+   margin: auto;
+}
+#contact-nav li:hover i{
+    opacity: 1;
+}
+#contact-nav li {
+   text-align: center;
+   display:inline-block;
+   margin-right: 30px;
+   font-size: 18pt;
+}
+#contact-nav li p {
+    font-size: 14pt;
+}
+#contact-nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+.twitter:hover i{
+    color: #55ACEE;
+}
+.fb:hover i{
+    color: #3B5998;
+}
+.insta:hover i {
+    color: #2ecc71;
+}
