@@ -19,11 +19,21 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'district-thin', sans-serif;
+    background: #f0592a;
 }
 h1, h2, h3, h4 {
     font-family: 'bebas-neue', sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+nav {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+.logo {
+    width: 120px;
+    height: 100px;
+    margin-left: 15px;
 }
 section {
     height: 100%;
@@ -34,7 +44,7 @@ section {
 }
 #butler {
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -58,22 +68,23 @@ section {
 #home-content {
     width: 100%;
     height: 120%;
-    background: no-repeat center bottom;
+    /*background: no-repeat center bottom;
     background-size: cover !important;
     background-attachment: fixed !important;
     position: relative;
-    background-image: url('img/home-1920.jpg');
+    background-image: url('img/home-1920.jpg');*/
+    background: #f0592a;
     display: block;
     opacity: 1;
 }
-#home-content:after {
-    opacity: 0.65;
+/*#home-content:after {
+    opacity: 0.25;
     position: absolute;
     height: 100%;
     width: 100%;
     content: " ";
     background: #000;
-}
+}*/
 #contact-nav {
     margin: auto;
     margin-top: 2%;
